@@ -5,13 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignmetn-3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<style>
+    .adlam-display-normal {
+        font-family: "ADLaM Display", serif;
+    }
 
-<body>
+
+
+    .sora-normal {
+        font-family: "Sora", serif;
+    }
+</style>
+
+<body class="adlam-display-normal ">
     <header class="">
         <!-- <nav class="flex justify-between bg-[#FFF9F4] px-10 py-2">
             <div class="flex text-center justify-center items-center">
@@ -42,7 +58,7 @@
 
 
     </header>
-   
+
     <main class="container mx-auto">
         <!-- <nav >
             <div class="navbar bg-base-100">
@@ -91,18 +107,113 @@
         </nav> -->
         <section class="">
             <div class="lg:flex ">
-                <div class=" lg:absolute ">
-                    <h1 class="text-[56px]">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
-                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Find a part</button>
+                <div class=" lg:absolute space-y-5 px-4 lg:px-0 ">
+                    <h1 class="text-4xl lg:text-[56px] space-y-10 leading-[73px]">Pamper Your Pet,<br><span
+                            class="">Because They Deserve
+                        </span><br> the Bes</h1>
+                    <p class="text-base lg:text-[20px] leading-9 text-gray-500 sora-normal">Discover a world of treats, toys, and
+                        essentials handpicked for <br>
+                        your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Find a part</button>
                 </div>
                 <div>
                     <img src="./c1-assets/cat-big.png" alt="" srcset="">
                 </div>
             </div>
-            
-                
-           
+
+            <section>
+                <div class="my-[140px]">
+                    <h1 class=" text-2xl lg:text-4xl  ">Browse by categories</h1>
+                    <div class="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 mt-[48px]">
+                        <!-- card-1 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/dog-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">Dog</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                        <!-- card-2 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/fish-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">Fish</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                        <!-- card-3 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/cat-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">Cat</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                        <!-- card-4 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/bird-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">Birds</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                        <!-- card-5 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/mouse-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">Small pet</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                        <!-- card-6 -->
+                        <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
+                            <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
+                                <img src="./c1-assets/rabbit-cartoon.png" alt="" class="relative left-8 bottom-2 w-[48px] h-[48px]">
+                            </div>
+                            <div class="relative top-10">
+                                <h2 class="text-center text-[20px]">rabit</h2>
+                            <p class="text-center text-base">3 items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h1 class=" text-2xl lg:text-4xl  ">Everyday low Price</h1>
+                <div class="flex gap-10 ">
+                    <div class="w-[784px] h-[450px] border rounded-lg bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex ">
+                        <div class="p-20 ">
+                            <h3 class="sora-normal text-[20px]">Under Price</h3>
+                            <h1 class="text-[32px] ">Pet Grooming Mitt</h1>
+                            <h3 class="text-2xl text-white">(Easy Hair Removal)</h3>
+                            <h1 class="text-[56px]">$7.99</h1>
+                        </div>
+                        <div>
+                            <img src="./c1-assets/cute-dog-mid.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="w-[512px] h-[450px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex rounded-lg">
+                        <div class="p-20">
+                            <h1 class="text-[32px] ">T-Shirt for Dogs</h1>
+                            <h1 class="text-[56px] text-[#FFDC26]">$7.99</h1>
+                        </div>
+                        <div class="relative top-10">
+                            <img src="./c1-assets/cute-pet-small.png" alt="" srcset="" class="h-[350px] w-[400px]">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 
