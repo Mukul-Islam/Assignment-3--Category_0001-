@@ -29,29 +29,34 @@
 
 <body class="adlam-display-normal ">
     <header class="">
-        <!-- <nav class="flex justify-between bg-[#FFF9F4] px-10 py-2">
-            <div class="flex text-center justify-center items-center">
-                <img src="./c1-assets/logo-header.png" alt="" srcset="">
-                <h1 class=" text-2xl hidden lg:block lg:visible">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+        <nav class="flex justify-between bg-[#FFF9F4] lg:pl-36 px-20 py-2">
+            <div class="flex text-center justify-center items-center ">
+                <div class="">
+                    <img src="./c1-assets/logo-header.png" alt="" srcset="" >
+                </div>
+                <h1 class=" text-2xl ">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
             </div>
             <div>
-                <ul class="flex gap-3 justify-center items-center text-center p-2  w-[455px]">
-                    <li><a href="">Find a pet</a></li>
-                    <li><a href=""> Breads</a></li>
-                    <li><a href=""> Contact us</a></li>
+                <ul class="flex lg:flex-row flex-col gap-3 justify-center items-center text-center p-2  w-[455px]">
+                    <li class="hidden lg:block" ><a href="">Find a pet</a></li>
+                    <li class="hidden lg:block"><a href=""> Breads</a></li>
+                    <li class="hidden lg:block"><a href=""> Contact us</a></li>
                 </ul>
+            </div>
+            <div class="block lg:hidden">
+                <img src="./c1-assets/bars-3.png" alt="">
             </div>
             <div class="flex gap-2 w-[355px]">
                 <div class="grid place-content-center">
-                    <img class="h-8 w-8" src="./c1-assets/icons8-bell-24.png" alt="" srcset="">
+                    <img class="h-8 w-8 hidden lg:block" src="./c1-assets/icons8-bell-24.png" alt="" srcset="">
                 </div>
                 <div class="grid place-content-center">
-                    <img class="h-8 w-8 " src="./c1-assets/icons8-search-50.png" alt="" srcset="">
+                    <img class="h-8 w-8 hidden lg:block " src="./c1-assets/icons8-search-50.png" alt="" srcset="">
                 </div>
-                <button class="border border-[#FFDC26] px-7 py-2 font-bold rounded-lg">Login</button>
-                <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Register</button>
+                <button class="border border-[#FFDC26] px-7 py-2 font-bold rounded-lg hidden lg:block">Login</button>
+                <button class="bg-[#FFDC26] px-7 py-2 rounded-lg hidden lg:block">Register</button>
             </div>
-        </nav> -->
+        </nav>
         <div class="bg-[url('/c1-assets/cat-big.png')]">
             <img src="." alt="">
         </div>
@@ -59,7 +64,7 @@
 
     </header>
 
-    <main class="container mx-auto">
+    <main class="px-2 lg:px-[140px]">
         <!-- <nav >
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -108,7 +113,7 @@
         <section class="">
             <div class="lg:flex ">
                 <div class=" lg:absolute space-y-5 px-4 lg:px-0 ">
-                    <h1 class="text-4xl lg:text-[56px] space-y-10 leading-[73px]">Pamper Your Pet,<br><span
+                    <h1 class="text-4xl lg:text-[56px] lg:space-y-10 lg:leading-[73px]">Pamper Your Pet,<br><span
                             class="">Because They Deserve
                         </span><br> the Bes</h1>
                     <p class="text-base lg:text-[20px] leading-9 text-gray-500 sora-normal">Discover a world of treats,
@@ -126,7 +131,7 @@
             <section>
                 <div class="my-[140px]">
                     <h1 class=" text-2xl lg:text-4xl  ">Browse by categories</h1>
-                    <div class="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 mt-[48px]">
+                    <div class="grid grid-cols-2 gap-5 lg:grid-cols-6 md:grid-cols-3 mt-[48px]">
                         <!-- card-1 -->
                         <div class="w-[200px] h-[254px] bg-[#F9DF8A] rounded-lg">
                             <div class="relative left-10 top-5 pt-10 h-28 w-28 bg-white rounded-full">
@@ -199,8 +204,10 @@
 
             <!-- Trending Product Section -->
             <section>
-                <div class="bg-[#FFF9F4] py-28 rounded-lg flex justify-around gap-x-10">
-                    <div class="w-[424px] h-[402px] bg-[#F9DF8A] p-10 ml-10 rounded-lg ">
+                <h1 class=" text-2xl lg:text-4xl  ">Trending Pet Products</h1>
+                <div class="bg-[#ff790c] p-0  md:py-28 rounded-lg md:flex justify-around gap-x-10 md:pr-5">
+                    
+                    <div class="w-[424px] h-[402px] bg-[#F9DF8A] p-10 md:ml-10 rounded-lg ">
                         <div class="space-y-3">
                             <!-- card -->
                             <h1 class="text-3xl">T-Shirt For Dogs</h1>
@@ -212,10 +219,10 @@
                             <img src="./c1-assets/cute-pet-small.png" alt="" srcset="" class="">
                         </div>
                     </div>
-                    <div class=" grid grid-cols-3 gap-5">
+                    <div class=" grid grid-cols-2 md:grid-cols-3 gap-x-10 md:mr-10 m-2 md:m-0">
                         <!-- Grid-1 -->
-                        <div class="bg-white w-[275px] h-[118px] p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 border flex justify-center items-center rounded-lg ">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
                                 <img src="./c1-assets/dog-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
@@ -228,16 +235,15 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-2 -->
-                        <div class="bg-white w-[275px] h-[118px]  p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/rabbit-cartoon.png" alt="" srcset=""
-                                    class=" rounded-full absolute">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/rabbit-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
                                 <div class="flex gap-2">
@@ -249,14 +255,34 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-3 -->
-                        <div class="bg-white w-[275px] h-[118px]  p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/bird-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
+                            </div>
+                            <div>
+                                <div class="flex gap-2">
+                                    <div>
+                                        <img src="./c1-assets/fi_2107957.png" alt="">
+                                    </div>
+                                    <div>
+                                        4.5
+                                    </div>
+                                </div>
+                                <div>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Grid-4 -->
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
                                 <img src="./c1-assets/fish-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
@@ -269,36 +295,15 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Grid-4 -->
-                        <div class="bg-white w-[275px] h-[118px] p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/dog-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
-                            </div>
-                            <div>
-                                <div class="flex gap-2">
-                                    <div>
-                                        <img src="./c1-assets/fi_2107957.png" alt="">
-                                    </div>
-                                    <div>
-                                        4.5
-                                    </div>
-                                </div>
-                                <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-5 -->
-                        <div class="bg-white w-[275px] h-[118px] p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/bird-cartoon.png" alt="" srcset=""
-                                    class=" rounded-full  absolute">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/mouse-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
                                 <div class="flex gap-2">
@@ -310,16 +315,15 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-6 -->
-                        <div class="bg-white w-[275px] h-[118px]  p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/mouse-cartoon.png" alt="" srcset=""
-                                    class=" rounded-full absolute">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/bird-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
                                 <div class="flex gap-2">
@@ -331,16 +335,15 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-7 -->
-                        <div class="bg-white w-[275px] h-[118px]  p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/rabbit-cartoon.png" alt="" srcset=""
-                                    class=" rounded-full absolute">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/rabbit-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
                                 <div class="flex gap-2">
@@ -352,14 +355,15 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Grid-8 -->
-                        <div class="bg-white w-[275px] h-[118px] p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
+                    <div class="hidden lg:block">
+                        <div class="  bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5 ">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
                                 <img src="./c1-assets/dog-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
@@ -372,16 +376,16 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
+                    </div>
                         <!-- Grid-9 -->
-                        <div class="bg-white w-[275px] h-[118px]  p-5 rounded-lg flex gap-5">
-                            <div class="bg-[#FFF9F4] w-32 h-20 flex justify-center items-center rounded-lg ">
-                                <img src="./c1-assets/fish-cartoon.png" alt="" srcset=""
-                                    class=" rounded-full  absolute">
+                        <div class="bg-white w-[178px] h-[80px] md:w-[275px] md:h-[118px] mt-5 md:m-0 md:pt-5 md:pl-5 pl-5 md:p-0 py-5 rounded-lg flex gap-5">
+                            <div class="bg-[#FFF9F4] w-20 h-12   md:w-32 md:h-20 border flex justify-center items-center rounded-lg ">
+                                <img src="./c1-assets/rabbit-cartoon.png" alt="" srcset="" class=" rounded-full absolute">
                             </div>
                             <div>
                                 <div class="flex gap-2">
@@ -393,8 +397,8 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 class="text-[20px]">Pet Bed</h1>
-                                    <h2 class="text-[16pxs]">$39.99</h2>
+                                    <h1 class="text-[12px] md:text-[20px]">Pet Bed</h1>
+                                    <h2 class="text-[10px] md:text-[16px]">$39.99</h2>
                                 </div>
                             </div>
                         </div>
@@ -403,53 +407,77 @@
             </section>
 
             <!-- Low Price Section -->
-            <section>
+            <section class="mb-96">
                 <h1 class=" text-2xl lg:text-4xl  ">Everyday low Price</h1>
-                <div class="flex gap-10 mt-[48px]">
+                <div class="md:flex  gap-2 mt-[48px]">
                     <div
-                        class="w-[784px] h-[450px] border rounded-lg bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex ">
-                        <div class="p-20 ">
-                            <h3 class="sora-normal text-[20px]">Under Price</h3>
+                        class="w-[350px] h-[330px] mb-5 lg:mb-0 md:w-[784px] md:h-[450px] border rounded-lg bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex flex-col ">
+                        <div class="md:p-20 p-2  ">
+                            <h3 class="sora-normal text-[20px] hidden lg:block">Under Price</h3>
                             <h1 class="text-[32px] ">Pet Grooming Mitt</h1>
-                            <h3 class="text-2xl text-white">(Easy Hair Removal)</h3>
+                            <h3 class="text-2xl text-white hidden lg:block">(Easy Hair Removal)</h3>
                             <h1 class="text-[56px]">$7.99</h1>
                         </div>
-                        <div>
-                            <img src="./c1-assets/cute-dog-mid.png" alt="" srcset="">
-                        </div>
+                        
+                            <div class="h-[225px] w-[150px] md:h-[380px] md:w-[282px] ml-36 lg:left-52 lg:bottom-56 relative ">
+                                <img src="./c1-assets/cute-dog-mid.png" alt="" srcset="" class="top-5">
+                            </div>
+                        
                     </div>
-                    <div class="w-[512px] h-[450px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex rounded-lg">
-                        <div class="p-20">
+                    <div class="w-[350px] h-[330px] md:w-[512px] md:h-[450px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex flex-col rounded-lg">
+                        <div class="md:p-16">
                             <h1 class="text-[32px] ">T-Shirt for Dogs</h1>
                             <h1 class="text-[56px] text-[#FFDC26]">$7.99</h1>
                         </div>
-                        <div class="relative top-10">
-                            <img src="./c1-assets/cute-pet-small.png" alt="" srcset="" class="h-[350px] w-[400px]">
+                        <div class="h-[350px] w-[150px] md:h-[380px] md:w-[282px] relative bottom-12 lg:bottom-36 left-12 lg:left-20 ml-32">
+                            <img src="./c1-assets/cute-pet-small.png" alt="" srcset="" class="">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-                <div class="h-[491px] bg-[#FFF9F4] relative top-52 rounded-xl">
-                    <div class="flex space-x-24 space-y-24 px-32 ">
-                        <div>
-                            <img src="./c1-assets/cute-pet-mid.png" alt="">
-                        </div>
-                        <div class="space-y-7">
-                            <h1 class="text-4xl">Get Pawsome News!</h1>
-                            <h2 class="sora-normal text-[20px]">Exclusive training tips, ticks, product deals and more.</h2>
-                            <input type="email" placeholder="Enter email " class="px-14 py-3"><br>
-                            <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Register</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+          
         
     </main>
 
-    <footer class="h-[654px] bg-[#FFDC2680] pt-[375px] pl-[150px] pr-[250px]">
-        <div class="flex justify-between">
+    <footer class="relative">
+        <section class="absolute text-center left-3 lg:left-32 bottom-2/3 h-[559px] w-[329px] lg:w-[1220px] lg:h-[429px]">
+                
+            <!-- <div class="flex flex-col md:flex-row  space-x-24 space-y-24 md:px-32 h-[491px] bg-[#FFF9F4] relative top-52 rounded-xl ">
+                <div>
+                    <img src="./c1-assets/cute-pet-mid.png" alt="">
+                </div>
+                <div class="space-y-7">
+                    <h1 class="text-4xl">Get Pawsome News!</h1>
+                    <h2 class="sora-normal text-[20px]">Exclusive training tips, ticks, product deals and more.</h2>
+                    <input type="email" placeholder="Enter email " class="px-14 py-3"><br>
+                    <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Subscribe</button>
+                </div>
+            </div>
+         -->
+
+         <div class="flex flex-col lg:flex-row gap-10 items-center justify-center h-[491px] bg-[#FFF9F4] "> 
+            <div class="h-[90px] w-[138px] lg:h-[415px] lg:w-[330px]">
+            <img src="./c1-assets/cute-pet-mid.png" alt="" />
+            </div>
+            <div class="space-x-3 lg:space-y-7 mt-10 lg:mt-0 px-5 flex flex-col items-center lg:items-start">   
+                        <h1 class="text-4xl">Get Pawsome News!</h1>
+                        <h2 class="sora-normal text-[20px]">
+                        Exclusive training tips, ticks, product deals and more.
+                        </h2>
+                        <input
+                        type="email"
+                        placeholder="Enter email "
+                        class="px-14 py-3"
+                        /><br />
+                        <button class="bg-[#FFDC26] px-7 py-2 rounded-lg">Subscribe</button>
+            </div>
+      </div>
+    </div>
+
+    </section>
+    <section class="h-[654px] bg-[#FFDC2680] pt-[255px] md:pt-[375px] pl-2 md:pl-[150px] md:pr-[250px]">
+        <div class="md:flex justify-between ">
             <!-- Browse Pets -->
             <div class="space-y-3">
                 <div class="flex gap-3 items-center">
@@ -462,20 +490,20 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="text-[#111111B3] sora-normal text-[20px]">Discover a world of treats, toys, and <br>essentials handpicked for your furry <br> friends</h3>
+                    <h3 class="text-[#111111B3] sora-normal text-[20px] md:w-[426px]">Discover a world of treats, toys, and essentials handpicked for your furry  friends</h3>
                 </div>
 
             </div>
             <!-- Find a Pet -->
-             <div>
-                <ul class="sora-normal">
+             <div class="mt-5">
+                <ul class="sora-normal space-y-3">
                     <li class="text-[20px]">Find a pet</li>
                     <li class="text-[20px]"> Breeds</li>
                     <li class="text-[20px]"> Contact us</li>
                 </ul>
              </div>
              <!-- Social -->
-              <div class=" pt-14">
+              <div class="pt-14">
                 <h3>FOllow Us</h3>
                 <div class="flex gap-5"> 
                     <img src="./c1-assets/instagram.png" alt="">
@@ -485,6 +513,8 @@
                 </div>
               </div>
         </div>
+    </section>
+        
     </footer>
 </body>
 
